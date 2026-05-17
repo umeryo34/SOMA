@@ -1,10 +1,9 @@
 //
 //  TrainingTagManagementView.swift
-//  Fiture
-//
-//  Created by 梅澤遼 on 2026/03/23.
+//  SOMA
 //
 
+import Combine
 import SwiftUI
 
 struct TrainingTagManagementView: View {

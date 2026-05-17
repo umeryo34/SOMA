@@ -2,16 +2,18 @@
 //  SOMAApp.swift
 //  SOMA
 //
-//  Created by 梅澤遼 on 2026/05/16.
-//
 
+import Combine
 import SwiftUI
 
 @main
 struct SOMAApp: App {
+    @StateObject private var authManager = AuthManager.shared
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TrainingBodyView()
+                .environmentObject(authManager)
         }
     }
 }

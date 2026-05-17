@@ -1,6 +1,6 @@
 //
 //  MuscleSceneRendering.swift
-//  Fiture
+//  SOMA
 //
 //  SceneKit: USDZパーツのハイライト色・タップヒットテスト
 //

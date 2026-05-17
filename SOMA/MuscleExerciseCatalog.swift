@@ -1,6 +1,6 @@
 //
 //  MuscleExerciseCatalog.swift
-//  Fiture
+//  SOMA
 //
 //  部位ごとの定番種目と、種目名から部位への逆引き（ハイライト表示用）
 //
